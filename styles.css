@@ -62,7 +62,7 @@ nav {
 .search-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
 }
 
 input {
