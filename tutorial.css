@@ -17,7 +17,6 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   align-items: center
-
 }
 
 body {
@@ -34,6 +33,18 @@ nav {
 
 i {
   font-size: 18px;
+}
+
+.header-left {
+    text-align: left;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.header-right {
+    text-align: right;
 }
 
 
