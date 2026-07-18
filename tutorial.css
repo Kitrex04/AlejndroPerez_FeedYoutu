@@ -15,8 +15,11 @@
 
 header {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  align-items: center
+  grid-template-columns: auto 1fr auto; 
+  align-items: center;
+  width: 100%;
+  padding: 8px 16px; 
+  height: 56px; 
 }
 
 body {
@@ -36,15 +39,21 @@ i {
 }
 
 .header-left {
-    text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .header-center {
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Esto clava la barra de búsqueda justo en el centro de la pantalla */
 }
 
 .header-right {
-    text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 

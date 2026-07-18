@@ -10,32 +10,28 @@
 </head>
 <body>
   <header>
-    <div class="header-container-1">
-      <nav>
-
-        <div class="logo header-left">
-          <span class="material-symbols-outlined">menu</span>
-          <div>
-            <img src="./logo.svg" alt="YouTube Logo">
-          </div>
-        </div>
-
-       <div class="header-center">
-         <input type="text" placeholder="Buscar">
-         <button><i class="fa-solid fa-magnifying-glass"></i></button>
-         <div class="microphone"><button><i class="fa-solid fa-microphone"></i></button></div>
-       </div>
-
-
-        <div class="header-right">
-          <div class="create-button">
-            <button><i class="fa-regular fa-plus"></i> Crear</button>
-          </div>
-          <i class="fa-regular fa-bell"></i>
-          <i class="fa-solid fa-user"></i>
-        </div>
-      </nav>
+    <!-- PARTE 1: IZQUIERDA (Logo y Menú) -->
+    <div class="header-left logo">
+        <i class="fa-solid fa-bars"></i> <!-- Icono de menú si tienes -->
+        <span class="logo-text">YouTube</span>
     </div>
+    
+    <!-- PARTE 2: CENTRO (Barra de búsqueda) -->
+    <div class="header-center search-container">
+        <input type="text" placeholder="Buscar">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div class="microphone">
+            <button><i class="fa-solid fa-microphone"></i></button>
+        </div>
+    </div>
+    
+    <!-- PARTE 3: DERECHA (Botón crear, notificaciones, perfil) -->
+    <div class="header-right create-button">
+        <button><i class="fa-solid fa-plus"></i> Crear</button>
+        <i class="fa-regular fa-bell"></i>
+        <div class="user-profile">😎</div>
+    </div>
+</header>
     
     <div class="header-container-2">
       <p>Todo</p>
