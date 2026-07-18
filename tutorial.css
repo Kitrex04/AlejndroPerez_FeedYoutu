@@ -38,6 +38,7 @@ i {
   font-size: 18px;
 }
 
+                 /*posicion del header*/
 .header-left {
   display: flex;
   align-items: center;
@@ -47,23 +48,13 @@ i {
 .header-center {
   display: flex;
   align-items: center;
-  justify-content: center; /* Esto clava la barra de búsqueda justo en el centro de la pantalla */
+  justify-content: center; 
 }
 
 .header-right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-}
-
-
-                  /*posicion del header*/
-.header-container-1 {
-  padding: 8px 16px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
 }
 
 
