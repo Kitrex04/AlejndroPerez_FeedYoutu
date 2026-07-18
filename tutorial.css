@@ -18,7 +18,7 @@ header {
   grid-template-columns: auto 1fr auto; 
   align-items: center;
   width: 100%;
-  padding: 8px 16px; 
+  padding: 9px 16px; 
   height: 56px; 
 }
 
@@ -133,7 +133,7 @@ input::placeholder {
   font-size: 22px;
 }
 
-.logo {
+.Youtube-Logo {
   display: flex;
   flex-direction: row;
   align-items: center;
