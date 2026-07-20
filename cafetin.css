@@ -228,7 +228,6 @@ input::placeholder {
   padding: 12px 0;
   white-space: nowrap;
   position: sticky;
-  top: 56px;
   background-color: var(--background-color);
   z-index: 10;
 }
@@ -236,10 +235,6 @@ input::placeholder {
 /* Ocultar la barra de scroll de las categorías para un acabado más limpio */
 .categories-bar::-webkit-scrollbar {
   display: none;
-}
-.categories-bar {
-  -ms-overflow-style: none;  /* IE y Edge */
-  scrollbar-width: none;  /* Firefox */
 }
 
 /* Estilo para los botones/chips */
@@ -251,19 +246,10 @@ input::placeholder {
   border-radius: 8px;
   font-size: 14px;
   font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
+  
 }
 
-.category-chip:hover {
-  background-color: #3f3f3f;
-}
-
-/* Categoría seleccionada (blanca) */
-.category-chip.active {
-  background-color: #ffffff;
-  color: #0f0f0f;
-}                            
+                   
 
 
 
