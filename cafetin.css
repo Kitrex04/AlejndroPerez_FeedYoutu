@@ -171,11 +171,10 @@ input::placeholder {
   margin-top: 8px;
 }
 
-
 .sidebar {
-  width: 218px;
-  min-width: 218px;
-  height: calc(100vh - 56px); /* Altura completa restando el header */
+  width: 215px;
+  min-width: 215px;
+  height: calc(100vh - 56px); 
   position: sticky;
   top: 56px;
   overflow-y: auto;
@@ -186,7 +185,7 @@ input::placeholder {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 9px 12px;
+  padding: 9.5px 12px;
   text-decoration: none;
   border-radius: 10px;
   color: var(--text-color-main);
@@ -214,6 +213,57 @@ input::placeholder {
   margin: 12px 0;
 }
 
+                             /*BARRA DE CATEGORIAS*/
+ .content-area {
+  flex: 1;
+  overflow-x: hidden; /* Evita que el layout principal se rompa */
+  padding-left: 16px;
+}
+
+/* Barra de categorías */
+.categories-bar {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto; /* Permite scroll horizontal si las categorías no caben */
+  padding: 12px 0;
+  white-space: nowrap;
+  position: sticky;
+  top: 56px;
+  background-color: var(--background-color);
+  z-index: 10;
+}
+
+/* Ocultar la barra de scroll de las categorías para un acabado más limpio */
+.categories-bar::-webkit-scrollbar {
+  display: none;
+}
+.categories-bar {
+  -ms-overflow-style: none;  /* IE y Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Estilo para los botones/chips */
+.category-chip {
+  background-color: #272727;
+  color: var(--text-color-main);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.category-chip:hover {
+  background-color: #3f3f3f;
+}
+
+/* Categoría seleccionada (blanca) */
+.category-chip.active {
+  background-color: #ffffff;
+  color: #0f0f0f;
+}                            
 
 
 
