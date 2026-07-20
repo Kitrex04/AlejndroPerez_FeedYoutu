@@ -173,8 +173,8 @@ input::placeholder {
 
 
 .sidebar {
-  width: 220px;
-  min-width: 220px;
+  width: 218px;
+  min-width: 218px;
   height: calc(100vh - 56px); /* Altura completa restando el header */
   position: sticky;
   top: 56px;
