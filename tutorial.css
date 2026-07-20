@@ -148,6 +148,7 @@ input::placeholder {
 }
 
                     /*header de abajo*/
+                    /*
 .header-container-2 {
   display: flex;
   flex-direction: row;
@@ -161,6 +162,56 @@ input::placeholder {
   background-color: #202020;
   padding: 8px 12px;
   border-radius: 7px;
+}
+  */
+
+  /* Layout Principal para ordenar el Sidebar y el Contenido */
+.main-layout {
+  display: flex;
+  margin-top: 8px;
+}
+
+/* Estilos de la Barra Lateral */
+.sidebar {
+  width: 240px;
+  min-width: 240px;
+  height: calc(100vh - 56px); /* Altura completa restando el header */
+  position: sticky;
+  top: 56px;
+  overflow-y: auto;
+  padding-right: 12px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: var(--text-color-main);
+  font-size: 14px;
+}
+
+.sidebar-item:hover {
+  background-color: #272727;
+}
+
+.sidebar-item.active {
+  background-color: #272727;
+  font-weight: bold;
+}
+
+.sidebar-item i {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+}
+
+.sidebar-divider {
+  border: none;
+  border-top: 1px solid #303030;
+  margin: 12px 0;
 }
 
 
