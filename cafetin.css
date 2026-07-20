@@ -165,16 +165,16 @@ input::placeholder {
 }
   */
 
-  /* Layout Principal para ordenar el Sidebar y el Contenido */
+                /*Sidebar*/
 .main-layout {
   display: flex;
   margin-top: 8px;
 }
 
-/* Estilos de la Barra Lateral */
+
 .sidebar {
-  width: 240px;
-  min-width: 240px;
+  width: 200px;
+  min-width: 200px;
   height: calc(100vh - 56px); /* Altura completa restando el header */
   position: sticky;
   top: 56px;
