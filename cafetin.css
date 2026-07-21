@@ -324,7 +324,7 @@ input::placeholder {
 
 .channel-name, 
 .video-stats {
-  font-size: 12px;
+  font-size: 13px; 
   color: #aaa;
   line-height: 1.4;
 }
