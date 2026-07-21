@@ -168,15 +168,14 @@ input::placeholder {
                 /*Sidebar*/
 .main-layout {
   display: flex;
-  margin-top: 8px;
+  margin-top: 9px;
 }
 
 .sidebar {
   width: 215px;
   min-width: 215px;
-  height: calc(100vh - 56px); 
+  height: calc(100vh - 55px); 
   position: sticky;
-  top: 56px;
   overflow-y: auto;
   padding-right: 12px;
 }
@@ -185,7 +184,7 @@ input::placeholder {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 9.5px 12px;
+  padding: 8px 12px;
   text-decoration: none;
   border-radius: 10px;
   color: var(--text-color-main);
@@ -217,18 +216,17 @@ input::placeholder {
  .content-area {
   flex: 1;
   overflow-x: hidden; /* Evita que el layout principal se rompa */
-  padding-left: 16px;
+  padding-left: 33px;
 }
 
 /* Barra de categorías */
 .categories-bar {
   display: flex;
-  gap: 12px;
+  gap: 13px;
   overflow-x: auto; /* Permite scroll horizontal si las categorías no caben */
-  padding: 12px 0;
+  padding: 2px 0;
   white-space: nowrap;
   position: sticky;
-  background-color: var(--background-color);
   z-index: 10;
 }
 
@@ -247,6 +245,10 @@ input::placeholder {
   font-size: 14px;
   font-weight: 500;
   
+}
+.category-chip.active {
+  background-color: #ffffff;
+  color: #000000;
 }
 
                    
