@@ -84,7 +84,6 @@ input::placeholder {
   border: 1px solid #303030;
   border-radius: 0 25px 25px 0;
   background-color: #202020;
-  
 }
 
 .microphone {
@@ -215,7 +214,7 @@ input::placeholder {
                              /*BARRA DE CATEGORIAS*/
  .content-area {
   flex: 1;
-  overflow-x: hidden; /* Evita que el layout principal se rompa */
+  overflow-x: hidden; 
   padding-left: 33px;
 }
 
@@ -223,19 +222,18 @@ input::placeholder {
 .categories-bar {
   display: flex;
   gap: 13px;
-  overflow-x: auto; /* Permite scroll horizontal si las categorías no caben */
+  overflow-x: auto; 
   padding: 2px 0;
   white-space: nowrap;
   position: sticky;
   z-index: 10;
 }
 
-/* Ocultar la barra de scroll de las categorías para un acabado más limpio */
 .categories-bar::-webkit-scrollbar {
   display: none;
 }
 
-/* Estilo para los botones/chips */
+/* Estilo para los botones de la categoria */
 .category-chip {
   background-color: #272727;
   color: var(--text-color-main);
@@ -250,6 +248,8 @@ input::placeholder {
   background-color: #ffffff;
   color: #000000;
 }
+
+                                 /*contenido y videos*/
 
                    
 
