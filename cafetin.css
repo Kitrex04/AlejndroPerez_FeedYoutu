@@ -160,7 +160,7 @@ input::placeholder {
     width: 100%; 
   }
 
-  .create-button {
+.create-button {
   display: flex;
   align-items: center;
   justify-content: center;
